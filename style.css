@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(244, 245, 246);
+  margin: -1px;
+}
+
+header {
+  width: 100%;
+  height: 135px;
+  background: rgb(76, 104, 226);
+}
+
+.leftHeader, .rightHeader {
+  width: 50%;
+  height: 135px;
+  float: left;
+}
+
+
+
+/* left header side */
+
+h1 {
+  color: white;
+  font-size: 54px;
+  margin: -8px;
+  font-family: sans-serif;
+  padding-top: 40px;
+  padding-left: 200px;
+}
+
+/* right side header */
+.rightHeader {
+  text-align: right;
+  padding-top: 40px;
+  padding-right: 10px;
+}
+
+.email, .password {
+  width: 200px;
+  height: 35px;
+  border-radius: 7px;
+  border: lightgray;
+  color: lightgray;
+}
+
+.log {
+  background: #000080;
+  color: white;
+  width: 150px;
+  height: 35px;
+  border-radius: 7px;
+}
+
+a {
+  width: 100%;
+  float: left;
+  border-radius: 7px;
+  padding-top: 3px;
+  padding-right: 140px;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+  height: 700px;
+}
+
+.left, .right {
+  width: 50%;
+  height: 700px;
+  padding: 50px;
+  float: left;
+}
+
+
+.left > h2 {
+  font-weight: bolder;
+  font-size: 50px;
+
+}
+
+.left > p {
+  font-size: 25px;
+}
+
+p > span {
+  font-weight: bold;
+}
+
+/* right side main content */
+
+
+.up{
+  margin-bottom: 1px;
+}
+
+.right > h2 {
+  text-align: left;
+  font-size: 30px;
+}
+
+.name {
+  float: left;
+}
+
+p > .terms {
+  color: blue;
+}
+
+.right > p {
+  margin-top: 1px;
+}
+
+.fName, .lName, .password2, .mobile {
+  width: 200px;
+  height: 35px;
+  border-radius: 7px;
+  border: lightgray;
+  color: lightgray;
+  margin: 5px;
+}
+
+.lName {
+  margin-right: 400px;
+}
+
+.mobile, .password2 {
+  width: 411px;
+  margin-right: 450px;
+}
+
+.year, .day, .month {
+  margin: 10px;
+}
+
+.bday {
+    margin-right: 800px;
+    margin-bottom: 10px;
+}
+
+.year {
+  margin-right: 640px;
+}
+
+.gender {
+    margin-right: 800px;
+}
+
+.female, .male, .other {
+  margin: 10px;
+}
+
+.signUp {
+  width: 200px;
+  height: 35px;
+  background: green;
+  color: white;
+  margin-left: 400px;
+  border-radius: 7px;
+  border: lightgray;
+}
